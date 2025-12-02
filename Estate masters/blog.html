@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Blog — Real Estate Tips, Market Insights & Resources</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a
+            href="index.html"
+            style="
+              text-decoration: none;
+              color: inherit;
+              display: flex;
+              flex-direction: column;
+              gap: 4px;
+            ">
+            <img src="images/Picture1.0.png" alt="Estate Masters Ltd" />
+          </a>
+        </div>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <div class="menu-with-dropdown desktop-only">
+            <a href="#" class="menu-link">
+              Properties <span class="arrow">▼</span>
+            </a>
+            <ul class="dropdown">
+              <li>
+                <a href="properties.html?category=rent">Properties for Rent</a>
+              </li>
+              <li>
+                <a href="properties.html?category=sale">Properties for Sale</a>
+              </li>
+              <li>
+                <a href="properties.html?category=featured"
+                  >Featured Properties</a
+                >
+              </li>
+              <li>
+                <a href="properties.html?category=commercial"
+                  >Commercial Properties</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <a href="blog.html" class="active">Blog</a>
+          <a href="careers.html">Careers</a>
+          <a href="contact.html" class="btn-outline">Contact</a>
+        </nav>
+
+        <!-- HAMBURGER ICON -->
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- MOBILE SLIDE MENU -->
+        <div class="mobile-menu" id="mobileMenu">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+
+          <!-- MOBILE DROPDOWN -->
+          <div class="mobile-dropdown">
+            <button class="mobile-dropdown-toggle">
+              Properties <i class="bi bi-chevron-down"></i>
+            </button>
+
+            <div class="mobile-dropdown-menu">
+              <a href="properties.html?category=rent">Properties for Rent</a>
+              <a href="properties.html?category=sale">Properties for Sale</a>
+              <a href="properties.html?category=featured"
+                >Featured Properties</a
+              >
+              <a href="properties.html?category=commercial"
+                >Commercial Properties</a
+              >
+            </div>
+          </div>
+
+          <a href="blog.html">Blog</a>
+          <a href="careers.html">Careers</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-spacing">
+      <div class="container">
+        <h1>Real Estate Insights & Resources</h1>
+        <p style="font-size: 18px; color: #374151; margin: 16px 0 32px">
+          Expert tips, market insights, and practical advice for property
+          owners, tenants, and investors. Stay informed about real estate trends
+          in Nairobi Metropolitan.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-spacing">
+      <div class="container">
+        <h2>Property Management Tips for Landlords</h2>
+        <div style="display: grid; grid-template-columns: 1fr; gap: 24px">
+          <div
+            class="feature"
+            style="
+              display: grid;
+              grid-template-columns: 1fr 280px;
+              gap: 20px;
+              align-items: center;
+            ">
+            <div>
+              <h3 style="color: var(--accent); margin-top: 0">
+                How to Reduce Vacancies Through Strategic Marketing
+              </h3>
+              <p><strong>Key Strategies:</strong></p>
+              <ul style="color: var(--muted); padding-left: 20px">
+                <li>
+                  Multi-platform social media advertising (Facebook, Instagram,
+                  TikTok)
+                </li>
+                <li>Professional photography and video walkthroughs</li>
+                <li>Competitive pricing based on local market trends</li>
+                <li>Quick response to inquiries within 24 hours</li>
+                <li>Online platforms and listing aggregators</li>
+              </ul>
+              <p style="color: var(--muted); font-size: 14px">
+                <strong>Result:</strong> Properties are typically filled within
+                2-4 weeks with the right marketing approach.
+              </p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=300&h=250&fit=crop"
+              alt="Marketing"
+              style="
+                width: 100%;
+                height: 250px;
+                border-radius: 8px;
+                object-fit: cover;
+              " />
+          </div>
+
+          <div
+            class="feature"
+            style="
+              display: grid;
+              grid-template-columns: 1fr 280px;
+              gap: 20px;
+              align-items: center;
+            ">
+            <div>
+              <h3 style="color: var(--accent); margin-top: 0">
+                Best Practices in Tenant Screening
+              </h3>
+              <p><strong>Professional Tenant Selection:</strong></p>
+              <ul style="color: var(--muted); padding-left: 20px">
+                <li>Credit history and financial stability verification</li>
+                <li>Employment verification and income assessment</li>
+                <li>Rental history from previous landlords</li>
+                <li>Reference checks for reliability</li>
+                <li>ID verification and background checks</li>
+              </ul>
+              <p style="color: var(--muted); font-size: 14px">
+                <strong>Benefit:</strong> Quality tenants reduce arrears,
+                maintenance issues, and turnover costs.
+              </p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=250&fit=crop"
+              alt="Tenant Screening"
+              style="
+                width: 100%;
+                height: 250px;
+                border-radius: 8px;
+                object-fit: cover;
+              " />
+          </div>
+
+          <div
+            class="feature"
+            style="
+              display: grid;
+              grid-template-columns: 1fr 280px;
+              gap: 20px;
+              align-items: center;
+            ">
+            <div>
+              <h3 style="color: var(--accent); margin-top: 0">
+                Managing Rent Arrears Professionally
+              </h3>
+              <p><strong>Professional Arrears Management:</strong></p>
+              <ul style="color: var(--muted); padding-left: 20px">
+                <li>Clear payment terms and communication</li>
+                <li>Early reminder system (before due date)</li>
+                <li>Payment plan negotiations for genuine difficulties</li>
+                <li>Legal action only as last resort</li>
+                <li>Transparent documentation throughout process</li>
+              </ul>
+              <p style="color: var(--muted); font-size: 14px">
+                <strong>Result:</strong> Maintains relationships while
+                protecting rental income.
+              </p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=300&h=250&fit=crop"
+              alt="Rent Management"
+              style="
+                width: 100%;
+                height: 250px;
+                border-radius: 8px;
+                object-fit: cover;
+              " />
+          </div>
+
+          <div
+            class="feature"
+            style="
+              display: grid;
+              grid-template-columns: 1fr 280px;
+              gap: 20px;
+              align-items: center;
+            ">
+            <div>
+              <h3 style="color: var(--accent); margin-top: 0">
+                Lease Administration Best Practices
+              </h3>
+              <p><strong>Comprehensive Lease Management:</strong></p>
+              <ul style="color: var(--muted); padding-left: 20px">
+                <li>Clear, legally compliant lease agreements</li>
+                <li>Property condition documentation at move-in/out</li>
+                <li>Maintenance responsibility clarity</li>
+                <li>Transparent terms for repairs and improvements</li>
+                <li>
+                  Regular property inspections (quarterly or semi-annually)
+                </li>
+              </ul>
+              <p style="color: var(--muted); font-size: 14px">
+                <strong>Outcome:</strong> Fewer disputes and smooth tenant
+                relationships.
+              </p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=300&h=250&fit=crop"
+              alt="Lease Admin"
+              style="
+                width: 100%;
+                height: 250px;
+                border-radius: 8px;
+                object-fit: cover;
+              " />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt section-spacing">
+      <div class="container">
+        <h2>Market Insights: Nairobi Metropolitan Real Estate</h2>
+        <div style="display: grid; grid-template-columns: 1fr; gap: 24px">
+          <div
+            class="feature"
+            style="
+              display: grid;
+              grid-template-columns: 1fr 280px;
+              gap: 20px;
+              align-items: start;
+            ">
+            <div>
+              <h3 style="color: var(--accent); margin-top: 0">
+                Apartment Pricing Trends (Ruaka & Surrounding)
+              </h3>
+              <p><strong>Current Market Analysis:</strong></p>
+              <ul style="color: var(--muted); padding-left: 20px">
+                <li><strong>Studio:</strong> KSH 10,000 - 16,000 per month</li>
+                <li>
+                  <strong>1-Bedroom:</strong> KSH 18,000 - 28,000 per month
+                </li>
+                <li>
+                  <strong>2-Bedroom:</strong> KSH 30,000 - 50,000 per month
+                </li>
+                <li>
+                  <strong>3-Bedroom:</strong> KSH 45,000 - 75,000 per month
+                </li>
+              </ul>
+              <p style="color: var(--muted); font-size: 14px">
+                <em
+                  >Prices vary based on proximity to main road, amenities, and
+                  property condition.</em
+                >
+              </p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1460317442991-0ec209397118?w=300&h=250&fit=crop"
+              alt="Apartment Pricing"
+              style="
+                width: 100%;
+                height: 250px;
+                border-radius: 8px;
+                object-fit: cover;
+              " />
+          </div>
+
+          <div
+            class="feature"
+            style="
+              display: grid;
+              grid-template-columns: 1fr 280px;
+              gap: 20px;
+              align-items: start;
+            ">
+            <div>
+              <h3 style="color: var(--accent); margin-top: 0">
+                Commercial Space Rental Rates
+              </h3>
+              <p><strong>Office & Business Space:</strong></p>
+              <ul style="color: var(--muted); padding-left: 20px">
+                <li>
+                  <strong>Small Office (100-150 sqft):</strong> KSH 15,000 -
+                  25,000/month
+                </li>
+                <li>
+                  <strong>Medium Office (200-300 sqft):</strong> KSH 30,000 -
+                  50,000/month
+                </li>
+                <li>
+                  <strong>Retail/Shop Space:</strong> KSH 20,000 - 60,000/month
+                </li>
+              </ul>
+              <p style="color: var(--muted); font-size: 14px">
+                <em
+                  >Commercial property is growing due to business expansion in
+                  the area.</em
+                >
+              </p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=300&h=250&fit=crop"
+              alt="Commercial Space"
+              style="
+                width: 100%;
+                height: 250px;
+                border-radius: 8px;
+                object-fit: cover;
+              " />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing">
+      <div class="container">
+        <h2>Tenant Advice & Rights</h2>
+        <div style="display: grid; grid-template-columns: 1fr; gap: 24px">
+          <div
+            class="feature"
+            style="
+              display: grid;
+              grid-template-columns: 1fr 280px;
+              gap: 20px;
+              align-items: start;
+            ">
+            <div>
+              <h3 style="color: var(--accent); margin-top: 0">
+                Understanding Tenancy Agreements
+              </h3>
+              <p><strong>Key Points Every Tenant Should Know:</strong></p>
+              <ul style="color: var(--muted); padding-left: 20px">
+                <li>Duration of lease (fixed term or periodic)</li>
+                <li>Monthly rent amount and payment due date</li>
+                <li>Security deposit terms and conditions</li>
+                <li>Maintenance responsibilities (landlord vs. tenant)</li>
+                <li>Notice period for termination (usually 30-60 days)</li>
+                <li>House rules and tenant conduct expectations</li>
+              </ul>
+              <p style="color: var(--muted); font-size: 14px; margin-top: 12px">
+                <strong>Tip:</strong> Always request a written lease agreement
+                before moving in.
+              </p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=300&h=250&fit=crop"
+              alt="Tenancy Agreement"
+              style="
+                width: 100%;
+                height: 250px;
+                border-radius: 8px;
+                object-fit: cover;
+              " />
+          </div>
+
+          <div
+            class="feature"
+            style="
+              display: grid;
+              grid-template-columns: 1fr 280px;
+              gap: 20px;
+              align-items: start;
+            ">
+            <div>
+              <h3 style="color: var(--accent); margin-top: 0">
+                Reporting Maintenance Issues
+              </h3>
+              <p><strong>How to Report Problems Effectively:</strong></p>
+              <ul style="color: var(--muted); padding-left: 20px">
+                <li>Report issues in writing (email or WhatsApp for proof)</li>
+                <li>Include clear photos of the problem</li>
+                <li>Give the landlord reasonable time to fix (5-7 days)</li>
+                <li>For emergency issues, call immediately</li>
+                <li>Keep records of all communications</li>
+                <li>Document work done and any disputes</li>
+              </ul>
+              <p style="color: var(--muted); font-size: 14px; margin-top: 12px">
+                <strong>Your Right:</strong> A property must be maintained in
+                good, habitable condition.
+              </p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=300&h=250&fit=crop"
+              alt="Maintenance"
+              style="
+                width: 100%;
+                height: 250px;
+                border-radius: 8px;
+                object-fit: cover;
+              " />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt section-spacing">
+      <div class="container">
+        <h2>Case Studies & Success Stories</h2>
+        <div style="display: grid; grid-template-columns: 1fr; gap: 24px">
+          <div
+            class="feature"
+            style="
+              display: grid;
+              grid-template-columns: 1fr 280px;
+              gap: 20px;
+              align-items: start;
+            ">
+            <div>
+              <h3 style="color: var(--accent); margin-top: 0">
+                Case Study: Increased Rental Income by 30%
+              </h3>
+              <p>
+                <strong>Client Profile:</strong> Landlord with 3-bedroom
+                apartment in Ruaka
+              </p>
+              <p>
+                <strong>Challenge:</strong> Property sat vacant for 2 months,
+                losing income
+              </p>
+              <p>
+                <strong>Solution:</strong> Professional photography, strategic
+                pricing adjustment, multi-platform marketing
+              </p>
+              <p><strong>Result:</strong></p>
+              <ul
+                style="color: var(--muted); padding-left: 20px; margin: 8px 0">
+                <li>Filled within 3 weeks</li>
+                <li>Monthly rent increased from 40,000 to 52,000 KSH</li>
+                <li>Quality tenant secured</li>
+                <li>ROI improved significantly</li>
+              </ul>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1454796356633-e505c3ce2f41?w=300&h=250&fit=crop"
+              alt="Rental Income"
+              style="
+                width: 100%;
+                height: 250px;
+                border-radius: 8px;
+                object-fit: cover;
+              " />
+          </div>
+
+          <div
+            class="feature"
+            style="
+              display: grid;
+              grid-template-columns: 1fr 280px;
+              gap: 20px;
+              align-items: start;
+            ">
+            <div>
+              <h3 style="color: var(--accent); margin-top: 0">
+                Success Story: Problem Property Transformed
+              </h3>
+              <p>
+                <strong>Situation:</strong> Property with chronic tenant issues
+                and maintenance problems
+              </p>
+              <p>
+                <strong>Challenge:</strong> High turnover, rental arrears, poor
+                condition
+              </p>
+              <p>
+                <strong>Intervention:</strong> Professional screening,
+                renovation, professional management
+              </p>
+              <p><strong>Outcome:</strong></p>
+              <ul
+                style="color: var(--muted); padding-left: 20px; margin: 8px 0">
+                <li>Stable tenant with 18-month lease</li>
+                <li>Zero arrears for 18 months</li>
+                <li>Property well-maintained</li>
+                <li>Landlord now enjoys passive income</li>
+              </ul>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=300&h=250&fit=crop"
+              alt="Property Transformation"
+              style="
+                width: 100%;
+                height: 250px;
+                border-radius: 8px;
+                object-fit: cover;
+              " />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing">
+      <div class="container" style="text-align: center">
+        <h2>Have Questions? We're Here to Help</h2>
+        <p style="color: var(--muted); margin-bottom: 24px">
+          Contact us for personalized real estate advice tailored to your
+          situation.
+        </p>
+        <a class="btn-primary" href="contact.html"
+          >Get Professional Consultation</a
+        >
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>Estate Masters Ltd</strong>
+          <p>
+            Joe Complex Building, 2nd Floor<br />
+            Ruaka Town, Limuru Road<br />
+            Nairobi, Kenya
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:info@estatemasters.co.ke"
+              >info@estatemasters.co.ke</a
+            ><br />
+            <strong>Phone:</strong> <a href="tel:+254723544198">0723544198</a> /
+            <a href="tel:+254716277844">0716277844</a>
+          </p>
+        </div>
+        <div>
+          <strong>Office Hours</strong>
+          <p>
+            Monday - Friday: 8:00 AM - 5:00 PM<br />
+            Saturday: 9:00 AM - 2:00 PM<br />
+            Closed on Public Holidays
+          </p>
+        </div>
+        <div>
+          <strong>Quick Links</strong>
+          <p>
+            <a href="about.html">About Us</a><br />
+            <a href="services.html">Services</a><br />
+            <a href="blog.html">Blog</a><br />
+            <a href="contact.html">Contact</a><br />
+            <a href="faq.html">FAQs</a><br />
+            <a href="careers.html">Careers</a>
+          </p>
+        </div>
+        <div>
+          <strong>Connect With Us</strong>
+          <p>
+            Website:
+            <a href="http://www.estatemasters.co.ke" target="_blank"
+              >www.estatemasters.co.ke</a
+            >
+          </p>
+          <div class="social-links">
+            <a
+              href="https://tiktok.com/@estatemastersltd"
+              target="_blank"
+              title="TikTok">
+              <i class="bi bi-tiktok"></i>
+            </a>
+            <a
+              href="https://facebook.com/Estate-Masters"
+              target="_blank"
+              title="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a
+              href="https://instagram.com/estate-masters-limited"
+              target="_blank"
+              title="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2016-2025 Estate Masters Ltd. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="props-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
